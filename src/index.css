@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.header ul{
+  display: inline-block !important;
+}
+.header ul li{
+  display: inline-block;
+}
+.header .btns{
+  margin-left: 35%;
+}
+
+.new-task{
+  width: 60% !important;
+}
+
+.task-list{
+  width: 60% !important;
+}
+
+
+.input-group input{
+  border-style: none;
+}
+.input-group span{
+  border-style: none;
+}
+
+@media only screen and (max-width:553px)
+{
+
+  .header ul{
+    display: block !important;
+  }
+  .header .btns{
+    margin-left: 1%;
+  }
+  .new-task{
+    width: 100% !important;
+  }
+  
+  .task-list{
+    width: 100% !important;
+  }
+}
+
+@media (min-width:553px) and (max-width:768px)
+{
+
+  .header .btns{
+    margin-left: 1%;
+  }
+  .new-task{
+    width: 100% !important;
+  }
+  
+  .task-list{
+    width: 100% !important;
+  }
+}
+
+@media (min-width:768px) and (max-width:992px){
+  .header .btns{
+    margin-left: 10%;
+  }
+  .new-task{
+    width: 100% !important;
+  }
+  
+  .task-list{
+    width: 100% !important;
+  }
+}
+@media (min-width:992px) and (max-width:1200px){
+  .header .btns{
+    margin-left: 20%;
+  }
+  .new-task{
+    width: 100% !important;
+  }
+  
+  .task-list{
+    width: 100% !important;
+  }
+}
